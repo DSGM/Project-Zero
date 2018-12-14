@@ -16,7 +16,6 @@
 html *
 {
   font-family: 'Open Sans';
-  font-weight: 300;
 }
 
 /* --elements-- */
@@ -27,16 +26,20 @@ body {
 
 p {
   font-size: 15px;
+  font-weight: 400;
 }
 
 h1 {
   font-size: 40px;
+  font-weight: 300;
 }
 
 h2 {
   font-size: 30px;
+  font-weight: 300;
 }
 
 h3 {
   font-size: 20px;
+  font-weight: 300;
 }

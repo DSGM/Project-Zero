@@ -1,3 +1,5 @@
+/* --global-- */
+
 * {
   /* freeze scrolling */
   overflow-x: hidden;
@@ -15,4 +17,26 @@ html *
 {
   font-family: 'Open Sans';
   font-weight: 300;
+}
+
+/* --elements-- */
+
+body {
+  background-color: #fdf9f9;
+}
+
+p {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
 }

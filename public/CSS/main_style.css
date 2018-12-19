@@ -34,6 +34,9 @@ p {
 h1 {
   font-size: 40px;
   font-weight: 300;
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 h2 {
@@ -47,7 +50,7 @@ h3 {
 }
 
 
-.header {
+header {
   overflow: hidden;
   background-color: #f1f1f1;
   width: 100%;

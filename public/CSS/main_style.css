@@ -54,3 +54,10 @@ h3 {
   height:100px;
   margin: 0;
 }
+
+
+.buttons {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+}

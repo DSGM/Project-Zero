@@ -57,3 +57,30 @@ header {
   height:100px;
   margin: 0;
 }
+
+
+.buttons {
+  position: absolute;
+  right: 40%;
+  bottom: 50%;
+}
+
+#over {
+  width: 200px;
+  height: 40px;
+  border-color: black;
+  margin-right: 35px;
+  background: greenyellow;
+  border-radius: 8px;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+#route {
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+}

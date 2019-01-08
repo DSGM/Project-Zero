@@ -75,6 +75,13 @@ h3 {
   font-size: 20px;
 }
 
+#over:hover {
+  background-color: white;
+}
+
+#route:hover {
+  background-color: greenyellow;
+}
 
 #route {
   width: 200px;

@@ -61,7 +61,7 @@ header {
 
 .buttons {
   position: absolute;
-  right: 40%;
+  right: 33%;
   bottom: 50%;
 }
 
@@ -78,9 +78,22 @@ header {
   font-size: 20px;
 }
 
+#over:hover {
+  background-color: white;
+}
+
+#route:hover {
+  background-color: greenyellow;
+}
 
 #route {
   width: 200px;
   height: 40px;
   border-radius: 8px;
+  border-color: black;
+  border-radius: 8px;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 20px;
 }

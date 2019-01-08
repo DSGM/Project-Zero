@@ -65,7 +65,7 @@ header {
   bottom: 50%;
 }
 
-#over {
+#button1 {
   width: 200px;
   height: 40px;
   border-color: black;
@@ -78,15 +78,15 @@ header {
   font-size: 20px;
 }
 
-#over:hover {
+#button1:hover {
   background-color: white;
 }
 
-#route:hover {
+#button2:hover {
   background-color: greenyellow;
 }
 
-#route {
+#button2 {
   width: 200px;
   height: 40px;
   border-radius: 8px;

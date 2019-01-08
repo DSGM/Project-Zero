@@ -55,6 +55,13 @@ h3 {
   margin: 0;
 }
 
+.content {
+  width: auto;
+  height: -webkit-fill-available;
+  background-image: url('../Sources/Leiden.jpg');
+  background-size: cover;
+}
+
 
 .buttons {
   position: absolute;

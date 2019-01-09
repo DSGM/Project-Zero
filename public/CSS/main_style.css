@@ -156,3 +156,7 @@ header {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+
+#leiden {
+  font-size: 30px;
+}

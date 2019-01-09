@@ -74,6 +74,20 @@ header {
   position: fixed;
 }
 
+/*
+.button1 {
+  width: 200px;
+  height: 40px;
+  border-color: black;
+  margin-right: 35px;
+  background: greenyellow;
+  border-radius: 8px;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 20px;
+} */
+
 .button1 {
   text-align: center;
   display: inline-block;
@@ -84,8 +98,8 @@ header {
   text-align: center;
   font-size: 20px;
   padding: 10px;
-  width: 275px;
-  height: 50px;
+  width: 200px;
+  height: 62px;
 
   transition: all 0.5s;
   cursor: pointer;
@@ -98,24 +112,21 @@ header {
 }
 
 .button1:hover {
-  color:#000000;
-  border-color: #FFFFFF;
-  background-color:#FFFFFF;
+  background-color: white;
 }
 
 .button2 {
   text-align: center;
   display: inline-block;
   border-radius: 15px;
+  background-color: Transparent;
   border: solid;
-  color: #000000;
-  border-color: #FFFFFF;
-  background-color:#FFFFFF;
+  color: #FFFFFF;
   text-align: center;
   font-size: 20px;
   padding: 10px;
-  width: 275px;
-  height: 50px;
+  width: 200px;
+  height: 62px;
 
   transition: all 0.5s;
   cursor: pointer;
@@ -128,9 +139,7 @@ header {
 }
 
 .button2:hover {
-  color:#FFFFFF;
-  border-color:#FFFFFF;
-  background-color: Transparent;
+  background-color: greenyellow;
 }
 
 .Toplogo {
@@ -146,4 +155,9 @@ header {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+.mainmenu{
+
+
 }

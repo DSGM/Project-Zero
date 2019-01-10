@@ -58,8 +58,6 @@ header {
 }
 
 .title {
-  width: 30%;
-  /* height:100px; */
   margin: 2%;
   float: left;
 }
@@ -70,8 +68,8 @@ header {
 }
 
 .content {
-  width: auto;
   height: -webkit-fill-available;
+  /* width: auto; */
   background-image: url('../Sources/Leiden.jpg');
   background-size: cover;
 }
@@ -87,17 +85,18 @@ header {
 
 .headerbutton {
   text-align: center;
-  display: inline-block;
-  border-radius: 15px;
-  background-color: #a1ff91;
-  border: solid;
-  color: #ffffff;
-  border-color: #ffffff;
+  /* display: inline-block; */
+  /* border-radius: 15px; */
+  background-color: Transparent;
+  border: Transparent;
+  color: #008c00;
+  /* border-color: #ffffff; */
   text-align: center;
-  font-size: 20px;
+  font-size: 50px;
+  font-weight: bold;
   padding: 10px;
-  width: 200px;
-  height: 62px;
+  /* width: 200px; */
+  /* height: 62px; */
 
   transition: all 0.5s;
   cursor: pointer;
@@ -110,8 +109,8 @@ header {
 }
 
 .headerbutton:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #95e886;
+  color: #ffffff;
 }
 
 .button1 {

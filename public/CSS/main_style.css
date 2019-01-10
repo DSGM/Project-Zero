@@ -117,16 +117,16 @@ header {
 .button1 {
   text-align: center;
   display: inline-block;
-  border-radius: 15px;
+  border-radius: 5px;
   background-color: Transparent;
   border: solid;
   color: #ffffff;
   border-color: #ffffff;
   text-align: center;
   font-size: 20px;
-  padding: 10px;
-  width: 200px;
-  height: 62px;
+  padding: 5px;
+  width: 250px;
+  height: 50px;
 
   transition: all 0.5s;
   cursor: pointer;
@@ -146,16 +146,16 @@ header {
 .button2 {
   text-align: center;
   display: inline-block;
-  border-radius: 15px;
+  border-radius: 5px;
   background-color: #ffffff;
   border: solid;
   color: #000000;
   border-color: #ffffff;
   text-align: center;
   font-size: 20px;
-  padding: 10px;
-  width: 200px;
-  height: 62px;
+  padding: 5px;
+  width: 250px;
+  height: 50px;
 
   transition: all 0.5s;
   cursor: pointer;

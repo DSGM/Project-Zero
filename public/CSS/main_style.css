@@ -49,17 +49,39 @@ h3 {
   font-weight: 300;
 }
 
-
 header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   width: 100%;
-  height:100px;
+  /* height:100px; */
   margin: 0;
 }
 
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.title {
+  position: fixed;
+  top: 0px;
+  left: 150px;
+  width: 30%;
+  /* height:100px; */
+  margin: 2%;
+  float: left;
+}
+
+.mainmenu {
+  margin: 2%;
+  float: right;
+}
+
 .content {
-  width: auto;
   height: -webkit-fill-available;
   background-image: url('../Sources/Leiden.jpg');
   background-size: cover;
@@ -74,32 +96,49 @@ header {
   position: fixed;
 }
 
-/*
-.button1 {
-  width: 200px;
-  height: 40px;
-  border-color: black;
-  margin-right: 35px;
-  background: greenyellow;
-  border-radius: 8px;
-  color: blue;
-  font-family: Arial, Helvetica, sans-serif;
+.headerbutton {
   text-align: center;
-  font-size: 20px;
-} */
+  /* display: inline-block; */
+  /* border-radius: 15px; */
+  background-color: Transparent;
+  border: Transparent;
+  color: #008c00;
+  /* border-color: #ffffff; */
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+  /* width: 200px; */
+  /* height: 62px; */
+
+  transition: all 0.5s;
+  cursor: pointer;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-animation: buttonanimatie 3s ease infinite;
+  -moz-animation: buttonanimatie 3s ease infinite;
+  animation: buttonanimatie 3s ease infinite;
+}
+
+.headerbutton:hover {
+  background-color: #95e886;
+  color: #ffffff;
+}
 
 .button1 {
   text-align: center;
   display: inline-block;
-  border-radius: 15px;
+  border-radius: 5px;
   background-color: Transparent;
   border: solid;
-  color: #FFFFFF;
+  color: #ffffff;
+  border-color: #ffffff;
   text-align: center;
   font-size: 20px;
-  padding: 10px;
-  width: 200px;
-  height: 62px;
+  padding: 5px;
+  width: 250px;
+  height: 50px;
 
   transition: all 0.5s;
   cursor: pointer;
@@ -112,21 +151,23 @@ header {
 }
 
 .button1:hover {
-  background-color: white;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .button2 {
   text-align: center;
   display: inline-block;
-  border-radius: 15px;
-  background-color: Transparent;
+  border-radius: 5px;
+  background-color: #ffffff;
   border: solid;
-  color: #FFFFFF;
+  color: #000000;
+  border-color: #ffffff;
   text-align: center;
   font-size: 20px;
-  padding: 10px;
-  width: 200px;
-  height: 62px;
+  padding: 5px;
+  width: 250px;
+  height: 50px;
 
   transition: all 0.5s;
   cursor: pointer;
@@ -139,20 +180,32 @@ header {
 }
 
 .button2:hover {
-  background-color: greenyellow;
+  background-color: Transparent;
+  color: #ffffff;
 }
 
 .Toplogo {
   display: block;
-  margin-top: -120px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-  height: 400px;
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
+  position:absolute;
+  left:0;
+  top:0;
+  width: 123px;
+  height: 123px;
+}
+
+.menu{
+
+}
+
+/* Responsive */
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
 }

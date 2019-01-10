@@ -57,6 +57,15 @@ header {
   margin: 0;
 }
 
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 .title {
   position: fixed;
   top: 0px;
@@ -176,6 +185,7 @@ header {
 }
 
 .Toplogo {
+  display: block;
   position:absolute;
   left:0;
   top:0;

@@ -1,1 +1,3 @@
-let leiden = document.getElementById('leiden');
+let leiden = document.getElementById('leiden').addEventListener('click',() => {
+    console.log("klik")
+})

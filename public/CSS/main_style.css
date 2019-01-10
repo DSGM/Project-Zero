@@ -32,7 +32,7 @@ p {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 300;
   display: block;
   margin-left: 50px;
@@ -107,24 +107,18 @@ img {
   /* border-color: #ffffff; */
   text-align: center;
   font-size: 50px;
-  font-weight: bold;
+  font-weight: bolder;
   padding: 10px;
-  /* width: 200px; */
-  /* height: 62px; */
-
-  transition: all 0.5s;
-  cursor: pointer;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -webkit-animation: buttonanimatie 3s ease infinite;
-  -moz-animation: buttonanimatie 3s ease infinite;
-  animation: buttonanimatie 3s ease infinite;
 }
 
 .headerbutton:hover {
-  background-color: #95e886;
-  color: #ffffff;
+  border-style: solid;
+  border-color: #95e886;
+  border-width: 10px;
+  border-top: 0px;
+  border-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .button1 {
@@ -190,8 +184,8 @@ img {
   position:absolute;
   left:0;
   top:0; */
-  width: 123px;
-  height: 5%;
+  width: 88px;
+  height: auto;
   float: left;
 }
 

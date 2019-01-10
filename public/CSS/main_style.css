@@ -67,10 +67,10 @@ img {
 }
 
 .title {
-  position: fixed;
-  top: 0px;
-  left: 150px;
-  width: 30%;
+  /* position: fixed; */
+  /* top: 0px;
+  left: 150px; */
+  /* width: 30%; */
   /* height:100px; */
   margin: 2%;
   float: left;
@@ -83,6 +83,7 @@ img {
 
 .content {
   height: -webkit-fill-available;
+  width: auto;
   background-image: url('../Sources/Leiden.jpg');
   background-size: cover;
 }
@@ -185,12 +186,13 @@ img {
 }
 
 .Toplogo {
-  display: block;
+  /* display: block;
   position:absolute;
   left:0;
-  top:0;
+  top:0; */
   width: 123px;
-  height: 123px;
+  height: 5%;
+  float: left;
 }
 
 .menu{

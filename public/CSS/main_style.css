@@ -65,13 +65,9 @@ header {
   background-size: cover;
 }
 
-
-.buttons {
-  left: 50%;
-  top: 55%;
-  margin-top: -15px;
-  margin-left: -100px;
-  position: fixed;
+.buttons {  
+  position: fixed; 
+  text-align: center; 
 }
 
 /*

@@ -72,12 +72,12 @@ img {
   left: 150px; */
   /* width: 30%; */
   /* height:100px; */
-  margin: 2%;
+  margin: 20px;
   float: left;
 }
 
 .mainmenu {
-  margin: 2%;
+  margin: 20px;
   float: right;
 }
 
@@ -188,8 +188,8 @@ img {
   position:absolute;
   left:0;
   top:0; */
-  width: 88px;
-  height: auto;
+  height: 108px;
+  width: auto;
   float: left;
 }
 

@@ -122,6 +122,7 @@ img {
   padding-left: 10px;
   padding-right: 10px;
   background-color: #e7fce3;
+  transition: 1s;
 }
 
 .button1 {

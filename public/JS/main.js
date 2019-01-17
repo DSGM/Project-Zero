@@ -2,6 +2,8 @@ let buttonDivWidth;
 let buttonDivHeight;
 let screenWidth;
 let screenHeight;
+let buttonPositionX;
+let buttonPositionY;
 
 let leiden = document.getElementById('leiden').addEventListener('click',() => {
     console.log("klik")
@@ -14,8 +16,8 @@ function centerButtons() {
     screenWidth = $(window).width();
     screenHeight = $(window).height();
 
-    var buttonPositionX = screenWidth/2 - buttonDivWidth/2;
-    var buttonPositionY = screenHeight/2 - buttonDivHeight/2;
+    buttonPositionX = screenWidth/2 - buttonDivWidth/2;
+    buttonPositionY = screenHeight/2 - buttonDivHeight/2;
     $('.buttons').css({left: buttonPositionX, top: buttonPositionY});
 }
 

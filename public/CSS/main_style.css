@@ -26,7 +26,7 @@ body {
   background-color: #fdf9f9;
 }
 
-p {
+ {
   font-size: 15px;
   font-weight: 400;
 }
@@ -95,6 +95,7 @@ img {
   margin-top: -15px;
   margin-left: -100px;
   position: fixed;
+  text-align: center;
 }
 
 .headerbutton {

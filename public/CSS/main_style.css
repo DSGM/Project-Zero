@@ -26,11 +26,6 @@ body {
   background-color: #fdf9f9;
 }
 
- {
-  font-size: 15px;
-  font-weight: 400;
-}
-
 h1 {
   font-size: 50px;
   font-weight: 300;
@@ -87,7 +82,6 @@ img {
   background-image: url('../Sources/Leiden.jpg');
   background-size: cover;
 }
-
 
 .buttons {
   left: 40%;

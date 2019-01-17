@@ -15,3 +15,4 @@ function centerButtons() {
 }
 
 setInterval(centerButtons, 100)
+//ma

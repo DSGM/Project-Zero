@@ -1,3 +1,11 @@
+let button1 = document.getElementById('button1').addEventListener('click',() => {
+    window.location.href = "/over.html";
+})
+
+let button2 = document.getElementById('button2').addEventListener('click',() => {
+    window.location.href = "/route.html"
+});
+
 let leiden = document.getElementById('leiden').addEventListener('click',() => {
     console.log("klik")
     window.location.href = "#"

@@ -16,6 +16,12 @@
 html *
 {
   font-family: 'Open Sans';
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 /* --elements-- */
@@ -52,15 +58,6 @@ header {
   margin: 0;
 }
 
-img {
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-
 .title {
   /* position: fixed; */
   /* top: 0px;
@@ -81,6 +78,8 @@ img {
   width: auto;
   background-image: url('../Sources/Leiden.jpg');
   background-size: cover;
+  max-width:100%;
+  height:auto;
 }
 
 .buttons {
@@ -192,19 +191,28 @@ img {
 
 /* Responsive */
 
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
-}
-
-#stad {
+.stad {
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 30px;
+}
+
+
+
+
+.map{
+  left: 10%;
+  top: 25%;
+  position: fixed;
+  text-align: center;
+  float: left;
+}
+
+.scrolling_text{
+  background-color: white;
+  width: 550px;
+  height: 451px;
+  overflow: auto;
+  float: right;
+
 }

@@ -74,7 +74,7 @@ header {
 }
 
 .content {
-  height: -webkit-fill-available;
+  height: -webkit-fill-available !important;
   width: auto;
   background-image: url('../Sources/Leiden.jpg');
   background-size: cover;

@@ -182,12 +182,6 @@ header {
   font-size: 30px;
 }
 
-.large_text {
-  float: left;
-  margin: 0 10% 0 10%;
-}
-
-
 .center {
   position: unset;
   margin-top: 30%;

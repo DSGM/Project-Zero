@@ -5,8 +5,8 @@ let screenHeight;
 let buttonPositionX;
 let buttonPositionY;
 
-let quotes = ["een stad voor jong een oud","Eene groene en een kleurrijke stad","Gezelegdste stad in nederland"]
-let random = Math.round(Math.random(0,2))
+let quotes = ["een stad voor jong een oud","Eene groene en een kleurrijke stad","Gezelegdste stad in nederland","yeeto"]
+let random = Math.round(Math.random(0,quotes.length))
 let quote_tag = document.getElementById("stad").innerHTML = quotes[random];
 
 

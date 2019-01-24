@@ -60,13 +60,12 @@ header {
 }
 
 .title {
-  /* position: fixed; */
-  /* top: 0px;
-  left: 150px; */
-  /* width: 30%; */
-  /* height:100px; */
   margin: 20px;
   float: left;
+  color: black;
+}
+.center {
+  margin: 0 auto;
 }
 
 .mainmenu {
@@ -161,10 +160,6 @@ header {
   height: 108px;
   width: auto;
   float: left;
-}
-
-.menu{
-
 }
 
 /* Responsive */

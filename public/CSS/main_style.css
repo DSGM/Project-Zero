@@ -197,7 +197,11 @@ header {
   font-size: 30px;
 }
 
-
+.center {
+  position: unset;
+  margin-top: 50%;
+  margin-left: auto;
+}
 
 
 .map{

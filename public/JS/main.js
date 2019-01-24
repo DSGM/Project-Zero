@@ -10,15 +10,15 @@ let leiden = document.getElementById('leiden').addEventListener('click',() => {
     window.location.href = "#"
 })
 
-function centerButtons() {
-    buttonDivWidth = $('.buttons').width();
-    buttonDivHeight = $('.buttons').height();
-    screenWidth = $(window).width();
-    screenHeight = $(window).height();
+// function centerButtons() {
+//     buttonDivWidth = $('.buttons').width();
+//     buttonDivHeight = $('.buttons').height();
+//     screenWidth = $(window).width();
+//     screenHeight = $(window).height();
+//
+//     buttonPositionX = screenWidth/2 - buttonDivWidth/2;
+//     buttonPositionY = screenHeight/2 - buttonDivHeight/2;
+//     $('.buttons').css({left: buttonPositionX, top: buttonPositionY});
+// }
 
-    buttonPositionX = screenWidth/2 - buttonDivWidth/2;
-    buttonPositionY = screenHeight/2 - buttonDivHeight/2;
-    $('.buttons').css({left: buttonPositionX, top: buttonPositionY});
-}
-
-setInterval(centerButtons, 100)
+// setInterval(centerButtons, 100)

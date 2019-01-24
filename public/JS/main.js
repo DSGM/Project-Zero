@@ -5,11 +5,6 @@ let screenHeight;
 let buttonPositionX;
 let buttonPositionY;
 
-let leiden = document.getElementById('leiden').addEventListener('click',() => {
-    console.log("klik")
-    window.location.href = "#"
-})
-
 function centerButtons() {
     buttonDivWidth = $('.buttons').width();
     buttonDivHeight = $('.buttons').height();

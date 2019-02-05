@@ -62,6 +62,9 @@ let quotes =
 "'De burgers voelen zich hier veilig!'",
 "'Een veilige stad!'",
 "'Een zonnige stad!'",
+"'Ruimte genoeg voor pret!'",
+"'Vol met natuur!'",
+"'Puur, zuiver, Leiden'",
 "'Overal om te genieten'"]
 
 
@@ -69,7 +72,7 @@ function random_quote() {
     lengte_quote = quotes.length - 1;
     random = Math.floor(Math.random() * lengte_quote) + 1;
     $("#stad").hide()
-    $("#stad").fadeIn()      
+    $("#stad").fadeIn()
     quote_tag = document.getElementById("stad").innerHTML = quotes[random];
 
 }

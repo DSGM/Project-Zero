@@ -64,12 +64,29 @@ let quotes =
 "'A sunny city!'",
 "'Everywhere to enjoy'"]
 
+/*function centerButtons() {
+    buttonDivWidth = $('.buttons').width();
+    buttonDivHeight = $('.buttons').height();
+    screenWidth = $(window).width();
+    screenHeight = $(window).height();
+
+    buttonPositionX = screenWidth/2 - buttonDivWidth/2;
+    buttonPositionY = screenHeight/2 - buttonDivHeight/2;
+    $('.buttons').css({left: buttonPositionX, top: buttonPositionY});
+}
+
+setInterval(centerButtons, 100)*/
+
+let lengte_quote = quotes.length - 1;
+let random = Math.floor(Math.random() * lengte_quote) + 1;
+console.log(random)
+let quote_tag = document.getElementById("stad").innerHTML = quotes[random];
 
 function random_quote() {
     lengte_quote = quotes.length - 1;
     random = Math.floor(Math.random() * lengte_quote) + 1;
     $("#stad").hide()
-    $("#stad").fadeIn()      
+    $("#stad").fadeIn()
     quote_tag = document.getElementById("stad").innerHTML = quotes[random];
 
 }

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/DSGM/Project-Zero#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "magister-api": "^0.1.9"
   }
 }

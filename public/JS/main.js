@@ -75,9 +75,3 @@ function random_quote() {
 }
 
 setInterval(random_quote,lengte*1000)
-
-
-$(document).ready(() => {
-    $("#stad").hide()
-    $("#stad").fadeIn()    
-})

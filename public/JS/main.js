@@ -5,6 +5,7 @@ let screenHeight;
 let buttonPositionX;
 let buttonPositionY;
 
+<<<<<<< HEAD
 let quotes =
 ["'een stad voor jong een oud'",
 "'Een groene en duurzame stad'",
@@ -63,6 +64,8 @@ let lengte_quote = quotes.length - 1;
 let random = Math.floor(Math.random() * lengte_quote) + 1;
 console.log(random)
 let quote_tag = document.getElementById("stad").innerHTML = quotes[random];
+=======
+>>>>>>> 7037e7d902db76b1e37409c867bf17b502657607
 function centerButtons() {
     buttonDivWidth = $('.buttons').width();
     buttonDivHeight = $('.buttons').height();

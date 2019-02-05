@@ -58,7 +58,6 @@ header {
   /* height:100px; */
   margin: 0;
 }
-
 .title {
   margin: 20px;
   float: left;
@@ -171,7 +170,7 @@ header {
 }
 
 .center {
-  position:relative; (or absolute, it depends on your needs)
+  position: relative;
   top:50%;
   left:50%;
   transform:translate(-50%, -50%);

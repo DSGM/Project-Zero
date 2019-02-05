@@ -4,7 +4,12 @@ let screenWidth;
 let screenHeight;
 let buttonPositionX;
 let buttonPositionY;
+let lengte_quote;
+let random;
+let quote_tag
+let lengte = 3.5;
 
+//Quotes
 let quotes =
 ["'een stad voor jong een oud'",
 "'Een groene en duurzame stad'",
@@ -57,13 +62,12 @@ let quotes =
 "'De burgers voelen zich hier veilig!'",
 "'Een veilige stad!'",
 "'Een zonnige stad!'",
+"'Ruimte genoeg voor pret!'",
+"'Vol met natuur!'",
+"'Puur, zuiver, Leiden'",
 "'Overal om te genieten'"]
 
-let lengte_quote = quotes.length - 1;
-let random = Math.floor(Math.random() * lengte_quote) + 1;
-console.log(random)
-let quote_tag = document.getElementById("stad").innerHTML = quotes[random];
-function centerButtons() {
+/*function centerButtons() {
     buttonDivWidth = $('.buttons').width();
     buttonDivHeight = $('.buttons').height();
     screenWidth = $(window).width();
@@ -74,4 +78,20 @@ function centerButtons() {
     $('.buttons').css({left: buttonPositionX, top: buttonPositionY});
 }
 
-setInterval(centerButtons, 100)
+setInterval(centerButtons, 100)*/
+
+let lengte_quote = quotes.length - 1;
+let random = Math.floor(Math.random() * lengte_quote) + 1;
+console.log(random)
+let quote_tag = document.getElementById("stad").innerHTML = quotes[random];
+
+function random_quote() {
+    lengte_quote = quotes.length - 1;
+    random = Math.floor(Math.random() * lengte_quote) + 1;
+    $("#stad").hide()
+    $("#stad").fadeIn()
+    quote_tag = document.getElementById("stad").innerHTML = quotes[random];
+
+}
+
+setInterval(random_quote,lengte*1000)

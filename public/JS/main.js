@@ -4,6 +4,10 @@ let screenWidth;
 let screenHeight;
 let buttonPositionX;
 let buttonPositionY;
+let lengte_quote;
+let random;
+let quote_tag
+
 
 let quotes =
 ["'een stad voor jong een oud'",
@@ -59,7 +63,12 @@ let quotes =
 "'Een zonnige stad!'",
 "'Overal om te genieten'"]
 
-let lengte_quote = quotes.length - 1;
-let random = Math.floor(Math.random() * lengte_quote) + 1;
-console.log(random)
-let quote_tag = document.getElementById("stad").innerHTML = quotes[random];
+
+
+function random_quote() {
+    lengte_quote = quotes.length - 1;
+    random = Math.floor(Math.random() * lengte_quote) + 1;
+    quote_tag = document.getElementById("stad").innerHTML = quotes[random];
+}
+
+setInterval(random_quote,1000)

@@ -7,6 +7,7 @@ let buttonPositionY;
 let lengte_quote;
 let random;
 let quote_tag
+let lengte = 2.5;
 
 
 let quotes =
@@ -71,4 +72,4 @@ function random_quote() {
     quote_tag = document.getElementById("stad").innerHTML = quotes[random];
 }
 
-setInterval(random_quote,4000)
+setInterval(random_quote,lengte*1000)

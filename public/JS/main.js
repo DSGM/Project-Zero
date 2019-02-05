@@ -9,7 +9,7 @@ let random;
 let quote_tag
 let lengte = 2.5;
 
-
+//Quotes
 let quotes =
 ["'een stad voor jong een oud'",
 "'Een groene en duurzame stad'",

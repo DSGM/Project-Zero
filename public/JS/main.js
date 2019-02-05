@@ -71,4 +71,4 @@ function random_quote() {
     quote_tag = document.getElementById("stad").innerHTML = quotes[random];
 }
 
-setInterval(random_quote,5000)
+setInterval(random_quote,4000)

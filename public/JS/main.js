@@ -7,7 +7,7 @@ let buttonPositionY;
 let lengte_quote;
 let random;
 let quote_tag
-let lengte = 2.5;
+let lengte = 3.5;
 
 //Quotes
 let quotes =
@@ -65,11 +65,19 @@ let quotes =
 "'Overal om te genieten'"]
 
 
-
 function random_quote() {
     lengte_quote = quotes.length - 1;
     random = Math.floor(Math.random() * lengte_quote) + 1;
+    $("#stad").hide()
+    $("#stad").fadeIn()      
     quote_tag = document.getElementById("stad").innerHTML = quotes[random];
+
 }
 
 setInterval(random_quote,lengte*1000)
+
+
+$(document).ready(() => {
+    $("#stad").hide()
+    $("#stad").fadeIn()    
+})

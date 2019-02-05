@@ -62,7 +62,16 @@ let quotes =
 "'De burgers voelen zich hier veilig!'",
 "'Een veilige stad!'",
 "'Een zonnige stad!'",
-"'Overal om te genieten'"]
+"'Overal om te genieten'",
+"'Hallo leiden'",
+"'Beste stad in de wereld!'",
+"'Een leuke stad in de winter'",
+"'Guude speeling in het stat'",
+"Van leiden word je gewoon opgewonden!",
+"'Wat is beter dan leiden ?'",
+"'Koop matthias VPN !'",
+"'De kans dat je deze quote krijgt is heel klein :)'",
+"'1 + 1 is gratis'"]
 
 
 function random_quote() {

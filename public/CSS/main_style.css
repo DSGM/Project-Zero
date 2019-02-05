@@ -63,6 +63,9 @@ header {
   float: left;
   color: black;
 }
+.center {
+  margin: 0 auto;
+}
 
 .mainmenu {
   margin: 20px;
@@ -156,10 +159,6 @@ header {
   height: 108px;
   width: auto;
   float: left;
-}
-
-.menu{
-
 }
 
 /* Responsive */

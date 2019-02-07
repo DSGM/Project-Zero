@@ -200,6 +200,12 @@ header {
   float: right;
 }
 
-@media only screen and (max-width: 360px) {
-  font-family: 'Courier New', Courier, monospace;
+
+/* 
+@media only screen and (max-width: 365px) {
+  p {
+   
+  }
 }
+*/
+

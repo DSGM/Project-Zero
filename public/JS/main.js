@@ -37,7 +37,6 @@ let quotes =
 "'Het begint met ambitie, daar is Leiden voor'",
 "'Meer mogelijk maken; Leiden'",
 "'Maten, Makkers, Leiden'",
-"'Een stad waar veel criminaliteit is'",
 "'Er is goed onderwijs'",
 "'Met mooie huizen'",
 "'Leiden geeft meer, veel meer'",

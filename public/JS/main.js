@@ -90,11 +90,6 @@ let quotes =
 
 setInterval(centerButtons, 100)*/
 
-let lengte_quote = quotes.length - 1;
-let random = Math.floor(Math.random() * lengte_quote) + 1;
-console.log(random)
-let quote_tag = document.getElementById("stad").innerHTML = quotes[random];
-
 function random_quote() {
     lengte_quote = quotes.length - 1;
     random = Math.floor(Math.random() * lengte_quote) + 1;

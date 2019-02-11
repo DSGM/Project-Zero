@@ -140,6 +140,19 @@ header {
   color: #ffffff;
 }
 
+.button.black {
+  margin: 30px;
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+
+.button.black:hover {
+  background-color: Transparent;
+  color: #000000;
+  border-color: #000000;
+}
+
 .button.transparent {
   background-color: Transparent;
   color: #ffffff;
@@ -199,5 +212,3 @@ header {
   overflow: auto;
   float: right;
 }
-
-

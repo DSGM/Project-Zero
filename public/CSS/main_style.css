@@ -207,8 +207,8 @@ header {
 
 .scrolling_text{
   background-color: white;
-  width: 75%;
-  height: 60%;
+  width: 550px;
+  height: 451px;
   overflow: auto;
   float: right;
 }

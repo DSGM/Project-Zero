@@ -57,18 +57,21 @@ header {
   width: 100%;
   /* height:100px; */
   margin: 0;
+  padding: -100px;
 }
+
 .title {
   margin: 20px;
   float: left;
   color: black;
 }
+
 .center {
   margin: 0 auto;
 }
 
 .mainmenu {
-  margin: 20px;
+  margin: 0px;
   float: right;
 }
 
@@ -83,29 +86,17 @@ header {
 
 .headerbutton {
   text-align: center;
-  /* display: inline-block; */
-  /* border-radius: 15px; */
-  background-color: Transparent;
-  border: Transparent;
-  color: #008c00;
-  /* border-color: #ffffff; */
+  background-color: #dfefdc;
+  color: white;
+  border: 0px;
   text-align: center;
   font-size: 50px;
-  font-weight: bolder;
   padding: 20px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  border-style: solid;
 }
 
 .headerbutton:hover {
-  border-style: solid;
-  border-color: #95e886;
-  border-width: 10px;
-  border-top: 0px;
-  border-bottom: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: #e7fce3;
+  background-color: #b8f2ae;
   transition: 1s;
 }
 
@@ -165,10 +156,6 @@ header {
 }
 
 .Toplogo {
-  /* display: block;
-  position:absolute;
-  left:0;
-  top:0; */
   height: 108px;
   width: auto;
   float: left;

@@ -120,6 +120,10 @@ header {
   animation: buttonanimatie 3s ease infinite;
 }
 
+button:focus {
+  outline:0;
+}
+
 .button.white {
   background-color: #ffffff;
   color: #000000;

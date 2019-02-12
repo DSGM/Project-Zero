@@ -27,16 +27,33 @@
 
     <div class="content">
 
-      <div class="map animated fadeIn">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d39168.68456918482!2d4.446650400167939!3d52.15173161489346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x47c5c68b88c9d753%3A0x74076352baf3fe49!2sLeiden!3m2!1d52.1601144!2d4.4970096999999996!5e0!3m2!1sen!2snl!4v1547714270120" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <div class="scrolling_text">
-          <a href="kosten.html"><button class="button black">Genereer kosten</button></a>
-          <hr>
-          <p>Selecteer een route en genereer de kosten van alle activeiten, hotels en restaurants in de buurt.</p>
-          <hr>
-          </div>
+      <div class="center map">
+        <table class="mapTable" style="width: 80%; height: 600px;">
+          <tr height="75%">
+            <td width="100%" colspan="2">
+              <iframe id="kaart" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d39168.68456918482!2d4.446650400167939!3d52.15173161489346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x47c5c68b88c9d753%3A0x74076352baf3fe49!2sLeiden!3m2!1d52.1601144!2d4.4970096999999996!5e0!3m2!1sen!2snl!4v1547714270120" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </td>
+          </tr>
+          <tr height="25%">
+            <td width="50%">
+              <button type="button" name="button" onclick="route1()" class="button transparent" style="width: 100%; height: 100%;">museum route</button>
+            </td>
+            <td width="50%">
+              <button type="button" name="button" onclick="route2()" class="button transparent" style="width: 100%; height: 100%;">bezienswaardigheden route</button>
+            </td>
+          </tr>
+        </table>
+
       </div>
 
 
   </body>
+  <script type="text/javascript">
+    function route1() {
+      document.getElementById("kaart").src = "https://www.google.com/maps/embed?pb=!1m40!1m12!1m3!1d19580.18866975686!2d4.465842404168985!3d52.16117330385151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m25!3e2!4m5!1s0x47c5c6e4307ef775%3A0x9da2151bc2b5b290!2sNaturalis+Biodiversity+Center%2C+Darwinweg%2C+Leiden!3m2!1d52.164645099999994!2d4.4730775!4m5!1s0x47c5c6ec733b42c5%3A0xe5f15ffbc9c94809!2sMolenmuseum+De+Valk%2C+2e+Binnenvestgracht%2C+Leiden!3m2!1d52.164490199999996!2d4.4864141!4m5!1s0x47c5c68d9ea3b1c9%3A0xc63a8b6a9d818603!2sGalerie+Z%C3%B4ne%3A+toegepaste+kunst%2C+beeldende+kunst+en+vormgeving%2C+Nieuwstraat%2C+Leiden!3m2!1d52.1579202!2d4.4934544!4m5!1s0x47c5c6f26ecc57fd%3A0x7c59dd4e1d8e50b1!2sRijksmuseum+van+Oudheden%2C+Rapenburg+28%2C+2311+EW+Leiden!3m2!1d52.1583!2d4.4857176!5e0!3m2!1snl!2snl!4v1549979404030"
+    }
+    function route2() {
+      document.getElementById("kaart").src = "https://www.google.com/maps/embed?pb=!1m46!1m12!1m3!1d2328.105214882332!2d4.490028978796673!3d52.157767732500304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m31!3e2!4m5!1s0x47c5c6f2447daae3%3A0x48e9dc4f075bb167!2sLeiden+University%2C+Rapenburg%2C+Leiden!3m2!1d52.1571485!2d4.485209!4m5!1s0x47c5c6f2fab01843%3A0xae16f7a1426e466e!2sJan+Pesijnshof%2C+Kloksteeg%2C+Leiden!3m2!1d52.157123899999995!2d4.4872473!4m5!1s0x47c5c68d43778f67%3A0xd407541f4275393f!2sLeiden+City+Hall%2C+Stadhuisplein%2C+Leiden!3m2!1d52.1582766!2d4.4908548999999995!4m5!1s0x47c642489521527b%3A0x9f4852fc4854709!2sBurcht+van+Leiden%2C+Van+der+Sterrepad%2C+Leiden!3m2!1d52.158940799999996!2d4.492507!4m5!1s0x47c5c68d936f5cb9%3A0x4602e356d4bf08e4!2sHooglandse+Kerk%2C+Nieuwstraat%2C+Leiden!3m2!1d52.1578387!2d4.4937213!5e0!3m2!1snl!2snl!4v1549979705491"
+    }
+  </script>
 </html>

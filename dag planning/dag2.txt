@@ -4,3 +4,5 @@ Rijksmonument Jean Pesijnhofje Leiden
 het Stadhuis van Leiden uit 1596
 De Burcht
 Hooglandse Kerk
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m46!1m12!1m3!1d2328.105214882332!2d4.490028978796673!3d52.157767732500304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m31!3e2!4m5!1s0x47c5c6f2447daae3%3A0x48e9dc4f075bb167!2sLeiden+University%2C+Rapenburg%2C+Leiden!3m2!1d52.1571485!2d4.485209!4m5!1s0x47c5c6f2fab01843%3A0xae16f7a1426e466e!2sJan+Pesijnshof%2C+Kloksteeg%2C+Leiden!3m2!1d52.157123899999995!2d4.4872473!4m5!1s0x47c5c68d43778f67%3A0xd407541f4275393f!2sLeiden+City+Hall%2C+Stadhuisplein%2C+Leiden!3m2!1d52.1582766!2d4.4908548999999995!4m5!1s0x47c642489521527b%3A0x9f4852fc4854709!2sBurcht+van+Leiden%2C+Van+der+Sterrepad%2C+Leiden!3m2!1d52.158940799999996!2d4.492507!4m5!1s0x47c5c68d936f5cb9%3A0x4602e356d4bf08e4!2sHooglandse+Kerk%2C+Nieuwstraat%2C+Leiden!3m2!1d52.1578387!2d4.4937213!5e0!3m2!1snl!2snl!4v1549979705491" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

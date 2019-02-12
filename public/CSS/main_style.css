@@ -198,6 +198,7 @@ button:focus {
   /* width: -webkit-fill-available;
   height: -webkit-fill-available; */
   float: right;
+  width: 40%;
 }
 
 hr {
